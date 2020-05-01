@@ -140,5 +140,10 @@ C:\Users\hp\source\repos\InventoryServices\InventoryServices\bin\Debug\netcoreap
 C:\Users\hp\source\repos\InventoryServices\InventoryServices\bin\Debug\netcoreapp3.1\Xunit.SkippableFact.dll
 C:\Users\hp\source\repos\InventoryServices\InventoryServices\obj\Debug\netcoreapp3.1\InventoryServices.genruntimeconfig.cache
 C:\Users\hp\source\repos\InventoryServices\InventoryServices\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hp\source\repos\InventoryServices\InventoryServices\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\hp\source\repos\InventoryServices\InventoryServices\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hp\source\repos\InventoryServices\InventoryServices\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hp\source\repos\InventoryServices\InventoryServices\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\hp\source\repos\InventoryServices\InventoryServices\obj\Debug\netcoreapp3.1\InventoryServices.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\InventoryServices\InventoryServices\obj\Debug\netcoreapp3.1\InventoryServices.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\hp\source\repos\InventoryServices\InventoryServices\obj\Debug\netcoreapp3.1\InventoryServices.MvcApplicationPartsAssemblyInfo.cache

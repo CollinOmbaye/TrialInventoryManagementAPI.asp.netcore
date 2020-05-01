@@ -15,6 +15,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
+using Microsoft.OpenApi.Models;
 
 namespace InventoryServices
 {
@@ -36,6 +37,14 @@ namespace InventoryServices
                {
                    options.UseSqlServer(Configuration.GetConnectionString("InventoryServicesConnection"));
                });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Swagger Inventory Api",
+                    Version = "v1"
+                });
+            });
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             {
                 options.RequireHttpsMetadata = false;
@@ -59,6 +68,11 @@ namespace InventoryServices
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Inventory Api V1");
+            });
 
             app.UseHttpsRedirection();
 
